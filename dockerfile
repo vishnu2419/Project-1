@@ -1,2 +1,2 @@
 FROM nginx
-  copy Index.html /usr/share/nginx/html/index.html
+COPY Index.html /usr/share/nginx/html/index.html
